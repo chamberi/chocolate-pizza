@@ -1,12 +1,90 @@
+
+/** {
+  border: dotted orange 1px;
+}*/
+
 * {
   margin-left: 55px;
   margin-right: 40px;
 }
+
+body {
+  width: 901px;
+}
+
+header {
+  display: inline-block;
+  width: 901px;
+}
+
+h3 {
+  display:inline-block;
+  font-family: cursive;
+  font-size: 25px;
+  color: black;
+}
+
+
+#logo {
+  display: inline;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+}
+
+#logotxt {
+  /*position: relative;*/
+  display: inline-block;
+}
+
+div {
+  clear: both;
+}
+
 .topDiv {
   height: 20px;
   width: 900px;
   background-color: gray;
 }
+
+#data {
+  font-size: 10px;
+
+}
+
+li a:before {
+  content: "\2610";
+  margin-right: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-family: 'Coming Soon', cursive;
+}
+
+#lflist {
+  display: inline-block;
+}
+
+
+#rtlist {
+  display: inline-block;
+}
+
+#logotxt {
+  color: #a1aba5;
+  font-size: 8px;
+  font-family: arial;
+}
+
+.navimg {
+  float: right;
+  margin-bottom: 50px;
+}
+
 
 h2 {
   font-family: Oswald;
@@ -27,6 +105,16 @@ h2 {
 .hero {
 
 }
+
+/*div {
+  height: 20px;
+  background-color: #c0c6c3;
+}*/
+
+#recipe {
+  background-image: url("images/list-bg.png");
+
+
 
 article {
   text-indent: 30px;

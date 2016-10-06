@@ -1,6 +1,12 @@
+
 /** {
   border: dotted orange 1px;
 }*/
+
+* {
+  margin-left: 55px;
+  margin-right: 40px;
+}
 
 body {
   width: 901px;
@@ -11,13 +17,20 @@ header {
   width: 901px;
 }
 
+h3 {
+  display:inline-block;
+  font-family: cursive;
+  font-size: 25px;
+  color: black;
+}
+
+
 #logo {
   display: inline;
   margin-left: 10px;
   position: relative;
   top: 20px;
 }
-
 
 #logotxt {
   /*position: relative;*/
@@ -28,16 +41,15 @@ div {
   clear: both;
 }
 
-h3 {
-  display:inline-block;
-  font-family: cursive;
-  font-size: 25px;
-  color: black;
+.topDiv {
+  height: 20px;
+  width: 900px;
+  background-color: gray;
 }
 
 #data {
   font-size: 10px;
-  
+
 }
 
 li a:before {
@@ -73,12 +85,65 @@ li {
   margin-bottom: 50px;
 }
 
-div {
+
+h2 {
+  font-family: Oswald;
+}
+
+.print {
+  position: relative;
+  left: 825px;
+  top: -10px;
+}
+
+.printWord {
+  text-align: left;
+  position: relative;
+  left: 742px;
+  top: -10px;
+}
+.hero {
+
+}
+
+/*div {
   height: 20px;
   background-color: #c0c6c3;
-}
+}*/
 
 #recipe {
   background-image: url("images/list-bg.png");
 
+
+
+article {
+  text-indent: 30px;
+  margin-top: 20px;
 }
+
+img {
+  align-items: center;
+  margin-left: 55px;
+  margin-right: 40px;
+}
+
+#vanessa {
+  margin-top: 15px;
+}
+
+h4 {
+  margin-left: 160px;
+  margin-top: -50px;
+}
+
+h5 {
+  margin-left: 160px;
+  margin-top: -15px;
+}
+
+.bottomDiv {
+  height: 10px;
+  width: 880px;
+  position: relative;
+  left:60px;
+  background-color: gray;

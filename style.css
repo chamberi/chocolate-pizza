@@ -1,9 +1,61 @@
-
-img {
-  margin-left: 250px;
+* {
+  margin-left: 55px;
+  margin-right: 40px;
 }
-
-div {
+.topDiv {
   height: 20px;
+  width: 900px;
   background-color: gray;
 }
+
+h2 {
+  font-family: Oswald;
+}
+
+.print {
+  position: relative;
+  left: 825px;
+  top: -10px;
+}
+
+.printWord {
+  text-align: left;
+  position: relative;
+  left: 742px;
+  top: -10px;
+}
+.hero {
+
+}
+
+article {
+  text-indent: 30px;
+  margin-top: 20px;
+}
+
+img {
+  align-items: center;
+  margin-left: 55px;
+  margin-right: 40px;
+}
+
+#vanessa {
+  margin-top: 15px;
+}
+
+h4 {
+  margin-left: 160px;
+  margin-top: -50px;
+}
+
+h5 {
+  margin-left: 160px;
+  margin-top: -15px;
+}
+
+.bottomDiv {
+  height: 10px;
+  width: 880px;
+  position: relative;
+  left:60px;
+  background-color: gray;

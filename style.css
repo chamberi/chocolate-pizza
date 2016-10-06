@@ -14,6 +14,7 @@ body {
 
 header {
   display: inline-block;
+  margin-top: 40px;
   width: 901px;
 }
 
@@ -24,21 +25,42 @@ h3 {
   color: black;
 }
 
-
 #logo {
   display: inline;
   margin-left: 10px;
   position: relative;
+  left: 45px;
   top: 20px;
 }
 
 #logotxt {
-  /*position: relative;*/
+  color: black;
+  position: relative;
+  left: -40px;
+  font-size: 25px;
+  font-family: cursive;
   display: inline-block;
 }
 
-div {
-  clear: both;
+.slogan {
+  font-size: 8px;
+  color: grey;
+  position:relative;
+  top: -10px;
+  left:30px;
+}
+
+nav {
+  margin-left: 620px;
+  position: relative;
+  left: 45px;
+  top: -30px;
+}
+
+.icons {
+  margin-right: -50px;
+  float: left;
+  display: inline;
 }
 
 .topDiv {
@@ -47,9 +69,13 @@ div {
   background-color: gray;
 }
 
-#data {
-  font-size: 10px;
+h2 {
+  font-family: Oswald;
+}
 
+article {
+  text-indent: 30px;
+  margin-top: 20px;
 }
 
 li a:before {
@@ -74,21 +100,12 @@ li {
   display: inline-block;
 }
 
-#logotxt {
-  color: #a1aba5;
-  font-size: 8px;
-  font-family: arial;
-}
 
 .navimg {
   float: right;
   margin-bottom: 50px;
 }
 
-
-h2 {
-  font-family: Oswald;
-}
 
 .print {
   position: relative;
@@ -102,9 +119,6 @@ h2 {
   left: 742px;
   top: -10px;
 }
-.hero {
-
-}
 
 /*div {
   height: 20px;
@@ -113,12 +127,6 @@ h2 {
 
 #recipe {
   background-image: url("images/list-bg.png");
-
-
-
-article {
-  text-indent: 30px;
-  margin-top: 20px;
 }
 
 img {
